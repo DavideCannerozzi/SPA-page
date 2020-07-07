@@ -1,0 +1,28 @@
+.form{
+    display:flex;
+    flex-direction: column;
+    width:60%;
+    margin:40px auto
+}
+input{
+    width:40%;
+    padding:1.2rem;
+    margin:10px auto
+}
+textarea{
+    width:60%;
+    margin:10px auto
+}
+.btn-submit{
+    width:20%;
+    padding:1rem;
+    margin:10px auto;
+    background:white;
+    border:1px solid black;
+    text-transform: uppercase;
+}
+.btn-submit:hover{
+    background:black;
+    color:white;
+    cursor: pointer;
+}
