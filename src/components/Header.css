@@ -15,6 +15,6 @@ ul{
 
 .active{ border-bottom:2px solid black }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:450px){
     ul{ display:block } 
 }
