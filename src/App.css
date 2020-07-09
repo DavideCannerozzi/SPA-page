@@ -5,13 +5,20 @@
     line-height: 1.6;
 }
 li{ list-style:none }
-a{ text-decoration: none}
-h2{ margin-top:30px }
+a{ text-decoration: none }
+h2{ margin-top:2rem }
 .App{ text-align:center }
 
 .container{
     width:80%;
-    margin:40px auto;
+    margin:2.5rem auto;
     padding:3rem
+}
+
+@media screen and (max-width:350px){
+    .container{
+        width:100%;
+        padding:0;
+    }
 }
 
